@@ -2,6 +2,8 @@
 
 // Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to 10^-4  are acceptable.
 
+// Pseudo Code
+
 // Positive and negative integers, and zero. First you have to find the number of integers you have in the array.
 
 // Look through arr, 3 variables, a variable for an array of positive integers, a variable for an array of negative integers, a variable for zeros
