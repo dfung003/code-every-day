@@ -1,4 +1,4 @@
-// Big O Notation
+// Big O Notation \\
 
 /* 
 
@@ -32,7 +32,7 @@ function printAllPairs(n) {
     }
 }                                           // O(n^2)
 
-// Simplifying Big O Notation
+// Simplifying Big O Notation \\
 
 /*
 Rules for simplifying Big O
@@ -71,4 +71,62 @@ O(n^2) line gets steeper
 
 */
 
-// Space Complexity
+// Space Complexity \\
+
+// - Space complexity: the amount of memory that's taken up 
+
+// Rules of Thumb
+
+/*
+
+- Most primitives (booleans, numbers, undefined, null) are constant space, meaning input size doesn't matter
+- Strings require O(n) space (where n is the string length)
+- Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
+
+*/
+
+// Example 1
+// function takes array and sums all the elements in the array
+function sum(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return total;
+}
+
+// O(1) space, total and i are variables, always the same no matter the input
+
+// Example 2
+// function takes an array and returns a new array that doubles each item in the array
+function double(arr) {
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++) {
+        newArr.push(2 * arr[i]);                        // array is getting longer proportionate to the input
+    }
+    return newArr;
+}
+
+// O(n) space because of new array getting larger as input size gets larger
+
+// Logarithms \\
+
+/*
+- Logarithm is the inverse of exponentiation
+- Ex: log based 2 of (value) = exponent -> 2^exponent = value
+- omit the base number in the subscript
+- The logarithm of a number roughly measures the number of times you can divide that number
+by 2 before you get a value that's less than or equal to one
+*/
+
+// Logarithm Complexity
+
+/*
+
+- certain searching algorithms have logarithmic time complexity
+- efficient sorting algorithms involve logarithms
+- recursion sometimes involves logarithmic space complexity
+
+*/
+
+
