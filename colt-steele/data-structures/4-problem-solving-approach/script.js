@@ -122,16 +122,104 @@
 // Previous Example
 // Write a function which takes in a string and returns counts of each character in the string.
 
-function charCount(str) {
-    // do something
-    // return an object with keys that are lowercase alphanumeric characters in the string; values should be the counts for those characters in the string
-}
+// function charCount(str) {
+//     // do something
+//     // return an object with keys that are lowercase alphanumeric characters in the string; values should be the counts for those characters in the string
+// }
+
+// function charCount(str) {
+//     // make object to return at end
+//     // loop over string, for each character...
+//     // if the char is a number/letter AND is a key in object, add one to count
+//     // if the char is a number/letter AND not in object, add it to object and set the value to 1
+//     // if character is something else (space, period, etc.) don't do anything
+//     // return object at end
+// }
+
+// Solve/Simplify \\
+
+// Solve the problem if you can; if you can't, solve a simpler problem
+
+// Simplify
+
+/*
+
+- Find the core difficulty in what you're trying to do
+- Temporarily ignore that difficulty
+- Write a simplified solution
+- Then incorporate that difficulty back in
+
+*/
+
+// Previous Example
+// Write a function which takes in a string and returns counts of each character in the string.
 
 function charCount(str) {
     // make object to return at end
+    let result = {};
     // loop over string, for each character...
-    // if the char is a number/letter AND is a key in object, add one to count
-    // if the char is a number/letter AND not in object, add it to object and set the value to 1
+    for (let i = 0; i < str.length; i++) {
+        const char = str[i].toLowerCase()
+        // if the char is a number/letter AND is a key in object, add one to count
+        if (result[char] > 0) {
+            result[char]++;
+        } else {
+            // if the char is a number/letter AND not in object, add it to object and set the value to 1
+            result[char] = 1;
+        }
+    }
     // if character is something else (space, period, etc.) don't do anything
     // return object at end
+    return result;
 }
+
+console.log(charCount("Hi there"))
+
+// Look Back & Refactor \\
+
+// Refactoring questions
+
+/*
+
+- Can you check the result?
+- Can you derive the result differently?
+- Can you understand it at a glance?
+- Can you use the result or method for some other problem?
+- Can you improve the performance of your solution?
+- Can you think of other ways to refactor?
+- How have other people solved this problem?
+
+*/
+
+// Previous Example
+// Write a function which takes in a string and returns counts of each character in the string.
+
+function charCount2(str) {
+    let obj = {};
+    for (let i = 0; i < str.length; i++) {
+        const char = str[i].toLowerCase();
+        if (/[a-z0-9]/.test(char)) {
+            if (obj[char] > 0) {
+                obj[char]++;
+            } else {
+                obj[char] = 1;
+            };
+        }
+    }
+    return obj;
+}
+
+console.log(charCount2("Hello World!"))
+
+function charCount3(str) {
+    let obj = {};
+    for (let char of str) {
+        char = char.toLowerCase();
+        if (/[a-z0-9]/.test(char)) {
+            obj[char] = ++obj[char] || 1;
+        }
+    }
+    return obj;
+}
+
+// can refactor even further using charCode instead of regular expression
