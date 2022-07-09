@@ -12,5 +12,3 @@ function palindrome(str) {
 }
 
 console.log(palindrome('abba'))
-
-module.exports = palindrome;
