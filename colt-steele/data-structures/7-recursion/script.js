@@ -61,3 +61,106 @@ function countDown(num) {
 // countDown(0) Base Case
 // print "All done!" because return
 countDown(5);
+
+// Our second recursive function \\
+
+function sumRange(num) {
+    if (num === 1) return 1;             // Base case
+    return num + sumRange(num - 1);     // Recursive call
+}
+
+// sumRange(4) => 10
+// sumRange(3) => 6
+// return 3 + sumRange(2)
+// return 2 + sumRange(1)
+// return 1
+
+
+// Factorials \\
+
+function factorial(num) {
+    let total = 1;
+    for (let i = num; i > 1; i--) {
+        total *= i
+    }
+    return total;
+}
+
+factorial(4) // 24
+
+// Factorials Recursively \\
+
+function factorial(num) {
+    if (num === 1) return 1;
+    return num * factorial(num - 1);
+}
+
+factorial(5);
+
+
+// Where things go wrong
+
+/*
+- No base case causing infinite loop
+- Forgetting to return or returning the wrong thing!
+- Stack overflow! Recursion is not stopping
+*/
+
+// Helper Method Recursion \\
+function outer(input) {
+
+    var outerScopedVariable = []
+
+    function helper(helperInput) {
+        // modify the outerScopedVariable
+        helper(helperInput--)
+    }
+
+    helper(input)
+
+    return outerScopedVariable;
+}
+
+function collectOddValues(arr) {
+
+    let result = []
+
+    function helper(helperInput) {
+        if (helperInput.length === 0) {
+            return;
+        }
+
+        if (helperInput[0] % 2 !== 0) {
+            result.push(helperInput[0])
+        }
+
+        helper(helperInput.slice(1))
+    }
+
+    helper(arr)
+
+    return result;
+}
+
+// Pure Recursion \\
+
+function collectOddValues(arr) {
+    let newArr = [];
+
+    if (arr.length === 0) {
+        return newArr;
+    }
+
+    if (arr[0] % 2 !== 0) {
+        newArr.push(arr[0]);
+    }
+
+    newArr = newArr.concat(collectOddValues(arr.slice(1)));
+    return newArr;
+}
+
+// Pure Recursion Tips
+
+// For arrays, use methods like slice, the spread operator, and concat that make copies of arrays so you do not mutate them
+// Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings
+// To make copies of objects use Object.assign, or the spread operator
