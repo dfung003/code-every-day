@@ -8,6 +8,7 @@ function power(base, exponent) {
     return base * power(base, exponent - 1);
 }
 
+// Write a function factorial which accepts a number and returns the factorial of that number. A factorial is the product of an integer and all the integers below it
 //factorial(1) // 1
 // factorial(2) // 2
 // factorial(4) // 24
