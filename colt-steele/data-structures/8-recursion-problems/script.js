@@ -20,7 +20,7 @@ function factorial(x) {
     return x * factorial(x - 1);
 }
 
-
+// Write a function called productOfArray which takes an array of numbers and returns the product of them all
 // productOfArray([1,2,3]) // 6
 // productOfArray([1,2,3,10]) // 60
 
