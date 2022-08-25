@@ -50,3 +50,29 @@ arr;
 - Swap the starting element (i.e. the pivot) with the pivot index
 - Return the pivot index
 */
+
+// Pivot Helper Implementation
+
+function pivot(arr, start = 0, end = arr.length + 1) {
+    function swap(array, i, j) {
+        let temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+
+    let pivot = arr[start];
+    let swapIdx = start;
+
+    for (let i = start + 1; i < arr.length; i++) {
+        if (pivot > arr[i]) {
+            swapIdx++;
+            swap(arr, swapIdx, i)
+        }
+    }
+    swap(arr, start, swapIdx)
+    return swapIdx;
+}
+
+pivot([4, 8, 2, 1, 5, 7, 6, 3])
+// 3
+// array will look like [2, 1, 3, 4, 8, 6, 7, 5]
