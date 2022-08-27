@@ -76,3 +76,37 @@ function pivot(arr, start = 0, end = arr.length + 1) {
 pivot([4, 8, 2, 1, 5, 7, 6, 3])
 // 3
 // array will look like [2, 1, 3, 4, 8, 6, 7, 5]
+
+
+// Quicksort Pseudocode
+/*
+- Call the pivot helper on the array
+- When the helper returns to you the updated pivot index, recursively call the pivot helper on the subarray to the left of that index, and the subarray to the right of that index
+- Your base case occurs when you consider a subarray with less than 2 elements
+*/
+
+function quickSort(arr, left = 0, righjt = arr.length - 1) {
+    if (left < right) {
+        let pivotIndex = pivot(arr, left, right) //3
+        //left
+        quickSort(arr, left, pivotIndex - 1);
+        //right
+        quickSort(arr, pivotIndex + 1, right);
+    }
+    return arr;
+}
+
+quickSort([4, 6, 9, 1, 2, 5, 3])
+// [4, 6, 9, 1, 2, 5, 3]
+// [3, 2, 1, 4, 6, 9, 5]
+//           4
+//  3, 2, 1     6, 9, 5
+//  2, 1        5     9
+//     2
+//  1
+
+// [1, 2, 3, 4, 5, 6, 9]
+
+// Big O of Quicksort
+
+// Time O(n log n) Best, Time O(n log n) Average, Time O(n^2) Worst, Space O(log n)
