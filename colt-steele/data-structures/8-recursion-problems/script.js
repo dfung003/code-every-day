@@ -153,6 +153,8 @@ var obj2 = {
 nestedEvenSum(obj1); // 6
 nestedEvenSum(obj2); // 10
 
+
+// Write a recursive function called capitalizeFirst. Given an array of strings, capitalize the first letter of each string in the array.
 function capitalizeFirst(array) {
     if (array.length === 1) {
         return [array[0][0].toUpperCase() + array[0].substr(1)];
