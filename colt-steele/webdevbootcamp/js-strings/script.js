@@ -51,3 +51,59 @@ firstName = "river"; // reassign variable with value of "river"
 
 let fullName = firstName + " " + lastName
 fullName // "river Phoenix"
+
+// String Methods
+/*
+- Methods are built-in actions we can perform with individual strings
+- They help us do things like:
+    - Searching within a string
+    - Replacing part of a string
+    - Changing the casing of a string
+*/
+
+// Casing
+let msg1 = 'I am king';
+let yellMsg = msg1.toUpperCase(); // 'I AM KING'
+
+let angry = 'LeAvE mE aLoNe!';
+angry.toLowerCase(); // 'leave me alone!'
+
+//the value in angry is unchanged
+angry; // 'LeAvE mE aLoNe!'
+
+// Trim
+let greeting = '    leave me alone plz    ';
+
+greeting.trim() // 'leave me alone plz'
+
+let userInput = "   hello my name is tim"
+
+userInput.trim() // "hello my name is tim"
+
+
+// String Methods With Arguments
+
+// thing.method(arg)
+/*
+- Some methods accept arguments that modify their behavior. Think of them as inputs that we can pass in. We pass these arguments inside of the parentheses.
+*/
+
+// indexOf
+let tvShow = 'catdog'
+
+tvShow.indexOf('cat'); // 0
+tvShow.indexOf('dog'); // 3
+tvShow.indexOf('z'); // -1 (not found)
+
+// slice
+let str = 'supercalifragilisticexpialidocious'
+
+str.slice(0, 5) // 'super'
+
+str.slice(5); // 'califragilisticexpialidocious'
+
+// replace
+let annoyingLaugh = 'teehee so funny! teehee!';
+
+annoyingLaugh.replace('teehee', 'haha') // 'haha so funny! teehee!'
+// Notice that it only replaces the first instance
