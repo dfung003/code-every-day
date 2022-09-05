@@ -106,6 +106,8 @@ function flatten(oldArr) {
 // flatten([[1],[2],[3]]) // [1,2,3]
 // flatten([[[[1], [[[2]]], [[[[[[[3]]]]]]]]]]) // [1,2,3
 
+// Write a recursive function called capitalizeWords. Given an array of words, return a new array containing each word capitalized.
+
 function capitalizeWords(array) {
     if (array.length === 1) {
         return [array[0].toUpperCase()];
@@ -115,7 +117,9 @@ function capitalizeWords(array) {
     return res;
 
 }
-capitalizeFirst(['car', 'taco', 'banana']); // ['Car','Taco','Banana']
+
+let words = ['i', 'am', 'learning', 'recursion'];
+capitalizedWords(words); // ['I', 'AM', 'LEARNING', 'RECURSION']
 
 // Write a recursive function called nestedEvenSum. Return the sum of all even numbers in an object which may contain nested objects.
 function nestedEvenSum(obj, sum = 0) {
