@@ -107,3 +107,21 @@ let annoyingLaugh = 'teehee so funny! teehee!';
 
 annoyingLaugh.replace('teehee', 'haha') // 'haha so funny! teehee!'
 // Notice that it only replaces the first instance
+
+// String Template Literals
+
+let product = 'Artichoke';
+
+let price = 3.99;
+
+price = 2.25;
+
+let qty = 5;
+
+/*
+- Temperate literals are strings that allow embedded expressions, which will be evaluated and then turned into a resulting string
+- We use back-ticks not single quotes
+- `I am a template literal`
+*/
+
+console.log(`You bought ${qty} ${product}. Total is: ${price * qty}`)
