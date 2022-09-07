@@ -80,3 +80,9 @@ function mostDigits(nums) {
 }
 
 mostDigits([23, 567, 89, 12234324, 90]) // 8 because largest number has 8 digits
+
+// Radix Sort Pseudocode
+/*
+- Define a function that accepts list of numbers
+- Figure out how many digits the largest number has
+*/
