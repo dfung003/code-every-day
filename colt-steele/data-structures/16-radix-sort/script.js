@@ -92,3 +92,20 @@ mostDigits([23, 567, 89, 12234324, 90]) // 8 because largest number has 8 digits
 - Replace our existing array with values in our buckets, starting with 0 and going up to 9
 - Return list at the end!
 */
+
+// Radix Sort: Implementation
+
+function radixSort(nums) {
+    let maxDigitCount = mostDigits(numbs);
+    for (let k = 0; k < maxDigitCount; k++) {
+        let digitBuckets = Array.from({ length: 10 }, () => [])
+        for (let i = 0; i < nums.length; i++) {
+            let digit = getDigit(nums[i], k);
+            digitBuckets[digit].push(nums[i]);
+        }
+        nums = [].concat(...digitBuckets);
+    }
+    return nums;
+}
+
+radixSort([23, 345, 5467, 12, 2345, 9852])
