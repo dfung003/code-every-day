@@ -91,6 +91,8 @@ function someRecursive(array, callback) {
 // someRecursive([4,6,8], isOdd) // false
 // someRecursive([4,6,8], val => val > 10); // false
 
+
+// Write a recursive function called flatten which accepts an array of arrays and returns a new array with all values flattened.
 function flatten(oldArr) {
     var newArr = []
     for (var i = 0; i < oldArr.length; i++) {
