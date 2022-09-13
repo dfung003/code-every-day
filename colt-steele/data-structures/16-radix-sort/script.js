@@ -109,3 +109,12 @@ function radixSort(nums) {
 }
 
 radixSort([23, 345, 5467, 12, 2345, 9852])
+
+// Radix Sort Big O
+
+/*
+- n: length of array
+- k: number of digits(average)
+- Time Complexity: O(nk)
+- Space Complexity: O(n + k)
+*/
