@@ -140,3 +140,27 @@ let loggedInUser = null; // value is explicitly nothing
 
 // A user logs in...
 loggedInUser = "Alan Rickman";
+
+// Random Numbers & The Math Object
+/* Math Object
+- Contains properties and methods for mathematical constants and functions
+*/
+
+Math.PI // 3.141592653
+
+// Rounding a number:
+Math.round(4.9) //5
+
+// Absolute value:
+Math.abs(-456) //456
+
+// Raises 2 to the 5th power:
+Math.pow(2, 5) //32
+
+// Removes decimal:
+Math.floor(3.9999) //3
+
+// Random Numbers
+// Math.random() gives us a random decimal between 0 and 1 (non-inclusive)
+Math.random();
+// 0.14502435424
