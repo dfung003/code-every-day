@@ -164,3 +164,18 @@ Math.floor(3.9999) //3
 // Math.random() gives us a random decimal between 0 and 1 (non-inclusive)
 Math.random();
 // 0.14502435424
+
+Math.floor(Math.random() * 10) + 1 // Random number from 1 to 10
+
+// Math Object
+// Contains properties and methods for mathematical constants and functions
+Math.pow(2, 3)
+// Same as 2**3
+
+// String Template Literal Exercise
+
+// I've provided you with two variables, die1 and die2 which represent six-sided dice.  Each variable holds a randomly generated integer from 1 to 6. // Please create a new variable called roll, which will be a string that displays each die as well as their sum.  Follow this pattern:
+const die1 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
+
+const roll = `You rolled a ${die1} and a ${die2}. They sum to ${die1 + die2}.`
