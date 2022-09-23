@@ -80,3 +80,16 @@ What does the following code evaluate to?
 true
 */
 
+// Console, Alert & Prompt
+/*
+console.log()
+- prints arguments to the console
+- we need this if we're going to start working with files!
+*/
+
+let userInput = prompt("please enter a number")
+
+parseInt(userInput) + 1
+// turns string into number
+
+parseInt("101")
