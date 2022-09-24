@@ -139,7 +139,7 @@ function nestedEvenSum(obj, sum = 0) {
     return sum;
 }
 
-
+// Helper 1
 var obj1 = {
     outer: 2,
     obj: {
@@ -152,6 +152,7 @@ var obj1 = {
     }
 }
 
+// Helper 2
 var obj2 = {
     a: 2,
     b: { b: 2, bb: { b: 3, bb: { b: 2 } } },
