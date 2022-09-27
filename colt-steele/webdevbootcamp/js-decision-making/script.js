@@ -93,3 +93,13 @@ parseInt(userInput) + 1
 // turns string into number
 
 parseInt("101")
+
+// Running Code From a File
+/* 
+- make a new folder
+- make a script.js file
+console.log("Hello from our first js file!"
+- save file
+- make index.html with script element at the bottom of the body
+<script src="script.js"></script>
+*/
