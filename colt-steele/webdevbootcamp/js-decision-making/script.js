@@ -103,3 +103,11 @@ console.log("Hello from our first js file!"
 - make index.html with script element at the bottom of the body
 <script src="script.js"></script>
 */
+
+// If Statement
+// Only runs code if given condition is true
+let rating = 3;
+
+if (rating === 3) {
+    console.log("YOU ARE A SUPERSTAR!");
+}
