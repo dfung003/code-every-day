@@ -149,12 +149,15 @@ function isEven(num) {
 
 // Else If
 // If not the first thing, maybe this other thing??
+// We can add multiple else ifs!
+let ratingB = 2;
 
-let rating = 2;
-
-if (rating === 3) {
+if (ratingB === 3) {
     console.log("YOU ARE A SUPERSTAR!");
 }
-else if (rating === 2) {
+else if (ratingB === 2) {
     console.log("MEETS EXPECTATIONS");
+}
+else if (ratingB === 1) {
+    console.log("NEEDS IMPROVEMENT");
 }
