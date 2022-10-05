@@ -161,3 +161,13 @@ else if (ratingB === 2) {
 else if (ratingB === 1) {
     console.log("NEEDS IMPROVEMENT");
 }
+
+const dayOfWeek = 'Saturday';
+
+if (dayOfWeek === 'Monday') {
+    console.log("UGHHH I HATE MONDAYS!")
+} else if (dayOfWeek === 'Saturday') {
+    console.log("YAY I LOVE SATURDAYS!")
+} else if (dayOfWeek === 'Friday') {
+    console.log("FRIDAYS ARE DECENT, ESPECIALLY AFTER WORK!")
+}
