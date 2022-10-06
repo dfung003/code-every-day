@@ -171,3 +171,9 @@ if (dayOfWeek === 'Monday') {
 } else if (dayOfWeek === 'Friday') {
     console.log("FRIDAYS ARE DECENT, ESPECIALLY AFTER WORK!")
 }
+
+const age = 8;
+
+if (age < 5) {
+    console.log("You are a child. You get in for free!")
+}
