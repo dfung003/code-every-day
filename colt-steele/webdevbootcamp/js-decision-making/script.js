@@ -176,4 +176,6 @@ const age = 8;
 
 if (age < 5) {
     console.log("You are a child. You get in for free!")
+} else if (age < 10) {
+    console.log("You are a child. You pay $10.")
 }
