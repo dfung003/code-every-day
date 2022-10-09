@@ -170,6 +170,8 @@ if (dayOfWeek === 'Monday') {
     console.log("YAY I LOVE SATURDAYS!")
 } else if (dayOfWeek === 'Friday') {
     console.log("FRIDAYS ARE DECENT, ESPECIALLY AFTER WORK!")
+} else {
+    console.log("MEH")
 }
 
 const age = 8;
@@ -181,3 +183,6 @@ if (age < 5) {
 } else if (age < 65) {
     console.log("You are an adult. You pay $20.")
 }
+
+// ELSE
+// If nothing else was true, do this...
