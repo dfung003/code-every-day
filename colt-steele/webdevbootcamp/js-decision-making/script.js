@@ -121,13 +121,11 @@ let random = Math.random();
 if (random < 0.5) {
     console.log("YOUR NUMBER IS LESS THAN 0.5!!!")
     console.log(random);
-}
-console.log("AFTER CONDITIONAL")
-
-if (random >= 0.5) {
+} else {
     console.log("YOUR NUMBER IS GREATER THAN 0.5!!!")
     console.log(random);
 }
+console.log("AFTER CONDITIONAL")
 
 // Our First Conditional Exercise
 
