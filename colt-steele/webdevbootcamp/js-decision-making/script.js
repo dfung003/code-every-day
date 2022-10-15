@@ -231,3 +231,15 @@ if (password.length >= 6) {
 else {
     console.log("Password too short!");
 }
+
+const password2 = prompt("please enter a new password");
+
+// Password must be 6+ characters
+
+if (password2.length >= 6) {
+    console.log("LONG ENOUGH PASSWORD!")
+} else {
+    console.log("PASSWORD TOO SHORT! Must be 6+ characters.")
+}
+
+// Password cannot include space
