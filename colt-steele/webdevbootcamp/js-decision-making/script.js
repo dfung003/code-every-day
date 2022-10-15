@@ -243,3 +243,9 @@ if (password2.length >= 6) {
 }
 
 // Password cannot include space
+
+if (password2.indexOf(' ') === -1) {
+    console.log("Good job! No space!")
+} else {
+    console.log("Password cannot contain spaces!")
+}
