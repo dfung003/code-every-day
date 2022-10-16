@@ -238,14 +238,13 @@ const password2 = prompt("please enter a new password");
 
 if (password2.length >= 6) {
     console.log("LONG ENOUGH PASSWORD!")
+    if (password2.indexOf(' ') === -1) {
+        console.log("Good job! No space!")
+    } else {
+        console.log("Password cannot contain spaces!")
+    }
 } else {
     console.log("PASSWORD TOO SHORT! Must be 6+ characters.")
 }
 
 // Password cannot include space
-
-if (password2.indexOf(' ') === -1) {
-    console.log("Good job! No space!")
-} else {
-    console.log("Password cannot contain spaces!")
-}
