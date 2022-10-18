@@ -248,3 +248,23 @@ if (password2.length >= 6) {
 }
 
 // Password cannot include space
+
+
+// Nested Conditionals Practice
+
+// Time for something a little bit different. I've given you a nested conditional that uses a variable called num.  I would like for you to change the value of num to another number, so that "YOU GOT ME!" is printed out. Don't change anything other than the value of num!  Leave the conditional alone!
+
+// Change the value of num, so that "YOU GOT ME!" prints out
+const num2 = 102; // THIS IS THE ONLY LINE YOU SHOULD CHANGE
+
+if (num2 <= 100) {
+    if (num2 >= 50) {
+        console.log("HEY!");
+    }
+} else {
+    if (num2 < 103) {
+        if (num2 % 2 === 0) {
+            console.log("YOU GOT ME!");
+        }
+    }
+}
