@@ -268,3 +268,16 @@ if (num2 <= 100) {
         }
     }
 }
+
+// Truthy and Falsy Values
+/*
+- All JS values have an inherent truthyness or falsyness about them
+- Falsy values:
+    - false
+    - 0
+    - "" (empty string)
+    - null
+    - undefined
+    - NaN
+- Everything else is truthy!
+*/
