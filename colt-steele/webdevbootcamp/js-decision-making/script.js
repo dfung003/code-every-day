@@ -282,10 +282,16 @@ if (num2 <= 100) {
 - Everything else is truthy!
 */
 
-const userInput = prompt("Enter something");
+const userInput1 = prompt("Enter something");
 
-if (userInput) {
-    console.log("TRUTHY!")
+// if (userInput1) {
+//     console.log("TRUTHY!")
+// } else {
+//     console.log("FALSY!")
+// }
+
+if (0) {
+    console.log("TRUTHY")
 } else {
-    console.log("FALSY!")
+    console.log("FALSY")
 }
