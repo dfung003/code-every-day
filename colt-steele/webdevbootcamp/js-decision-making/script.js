@@ -281,3 +281,11 @@ if (num2 <= 100) {
     - NaN
 - Everything else is truthy!
 */
+
+const userInput = prompt("Enter something");
+
+if (userInput) {
+    console.log("TRUTHY!")
+} else {
+    console.log("FALSY!")
+}
