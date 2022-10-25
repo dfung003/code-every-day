@@ -310,3 +310,15 @@ if (' ') {
 // 9 > 10 && 9 >= 9; false
 
 // 'abc'.length === 3 && 1+1 === 4; false
+
+// true && true
+// true
+
+// true && false
+// false
+
+// false && false
+// false
+
+// false && true
+// false
