@@ -322,3 +322,10 @@ if (' ') {
 
 // false && true
 // false
+
+const password3 = prompt("Enter your password");
+if (password3.length >= 6 && password3.indexOf(' ') === -1) {
+    console.log("VALID PASSWORD")
+} else {
+    console.log("INCORRECT FORMAT FOR PASSWORD!")
+}
