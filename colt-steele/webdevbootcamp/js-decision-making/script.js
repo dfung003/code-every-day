@@ -329,3 +329,13 @@ if (password3.length >= 6 && password3.indexOf(' ') === -1) {
 } else {
     console.log("INCORRECT FORMAT FOR PASSWORD!")
 }
+
+// Logical AND Mystery Exercise
+
+// I've provided you with a conditional statement that uses a variable called mystery  Please change the value of mystery so that the conditional is true and "YOU GOT IT" is printed to the console.  Do not change anything other than the value of mystery on line 1! 
+
+const mystery = 'Peeee7';
+
+if (mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1) {
+    console.log("YOU GOT IT!!!");
+}
