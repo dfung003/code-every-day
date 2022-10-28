@@ -339,3 +339,6 @@ const mystery = 'Peeee7';
 if (mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1) {
     console.log("YOU GOT IT!!!");
 }
+
+// Logical Operators
+// Allow us to combine expressions &&, ||, !
