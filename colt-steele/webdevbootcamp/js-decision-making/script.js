@@ -342,3 +342,12 @@ if (mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1) {
 
 // Logical Operators
 // Allow us to combine expressions &&, ||, !
+
+// AND
+// Both sides must be true, for the entire thing to be true
+
+// 1 <= 4 && 'a' === 'a'; true
+
+// 9 > 10 && 9 >= 9; false
+
+// 'abc'.length === 3 && 1+1 === 4; false
