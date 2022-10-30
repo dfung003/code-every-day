@@ -343,11 +343,13 @@ if (mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1) {
 // Logical Operators
 // Allow us to combine expressions &&, ||, !
 
-// AND
-// Both sides must be true, for the entire thing to be true
+// OR
+// If one side is true, the entire thing is true
 
-// 1 <= 4 && 'a' === 'a'; true
+// only one side needs to be true!
 
-// 9 > 10 && 9 >= 9; false
+1 !== 1 || 10 === 10 // true
 
-// 'abc'.length === 3 && 1+1 === 4; false
+10 / 2 === 5 || null // true
+
+0 || undefined // false
