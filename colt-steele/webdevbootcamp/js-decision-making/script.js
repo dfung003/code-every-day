@@ -353,3 +353,17 @@ if (mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1) {
 10 / 2 === 5 || null // true
 
 0 || undefined // false
+
+// 10-65 $20
+// 65+ free
+
+const ageOR = 100;
+if ((ageOR >= && ageOR < 5) || ageOR >= 65) {
+    console.log("FREE");
+} else if (ageOR >= 5 && ageOR < 10) {
+    console.log("$10")
+} else if (ageOR >= 10 && ageOR < 65) {
+    console.log("$20")
+} else {
+    console.log("INVALID AGE!")
+}
