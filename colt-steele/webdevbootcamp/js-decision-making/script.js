@@ -354,6 +354,7 @@ if (mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1) {
 
 0 || undefined // false
 
+// OR example
 // 10-65 $20
 // 65+ free
 
