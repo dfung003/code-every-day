@@ -375,3 +375,8 @@ if ((ageOR >= && ageOR < 5) || ageOR >= 65) {
 // !null // true
 // ! (0 === 0) // false
 // !(3 <= 4) // false
+
+const notAge = 45;
+if (!(notAge >= 0 && notAge < 5 || notAge >= 65)) {
+    console.log("YOU ARE NOT A BABY OR A SENIOR!")
+}
