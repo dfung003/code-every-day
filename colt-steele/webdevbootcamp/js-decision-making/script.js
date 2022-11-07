@@ -380,3 +380,8 @@ const notAge = 45;
 if (!(notAge >= 0 && notAge < 5 || notAge >= 65)) {
     console.log("YOU ARE NOT A BABY OR A SENIOR!")
 }
+
+// SWITCH
+// The switch statement is another control-flow statement that can replace multiple if statements.
+
+// syntax unwieldy and hard to remember, but it's good to know about
