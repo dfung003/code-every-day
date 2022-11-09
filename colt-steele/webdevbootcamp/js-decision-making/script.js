@@ -385,3 +385,21 @@ if (!(notAge >= 0 && notAge < 5 || notAge >= 65)) {
 // The switch statement is another control-flow statement that can replace multiple if statements.
 
 // syntax unwieldy and hard to remember, but it's good to know about
+
+const day = 2;
+switch (day) {
+    case 1:
+        console.log("MONDAY!")
+        break;
+    case 2:
+        console.log("TUESDAY!");
+        break;
+    case 3:
+        console.log("WEDNESDAY");
+    case 4:
+        console.log("THURSDAY");
+    case 5:
+        console.log("FRIDAY");
+        break;
+    default:
+        console.log("INVALID NUMBER!")
