@@ -401,5 +401,8 @@ switch (day) {
     case 5:
         console.log("FRIDAY");
         break;
+    case 6:
+        console.log("WEEKEND!")
+        break;
     default:
         console.log("INVALID NUMBER!")
