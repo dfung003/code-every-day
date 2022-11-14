@@ -386,7 +386,7 @@ if (!(notAge >= 0 && notAge < 5 || notAge >= 65)) {
 
 // syntax unwieldy and hard to remember, but it's good to know about
 
-const day = 2;
+const day = 281;
 switch (day) {
     case 1:
         console.log("MONDAY!")
