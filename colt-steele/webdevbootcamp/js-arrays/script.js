@@ -21,3 +21,7 @@ let lottoNums = [19, 22, 56, 12, 51];
 
 // A mixed array
 let stuff = [true, 68, 'cat', null];
+
+// Coding Exercise: Arrays
+// Define lottoNumbers below:
+const lottoNumbers = [5, 2, 28, 14, 7, 22]
