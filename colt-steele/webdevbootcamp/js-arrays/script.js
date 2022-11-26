@@ -25,3 +25,6 @@ let stuff = [true, 68, 'cat', null];
 // Coding Exercise: Arrays
 // Define lottoNumbers below:
 const lottoNumbers = [5, 2, 28, 14, 7, 22]
+
+// Arrays are Indexed
+// Each element has a corresponding index (counting starts at 0)
