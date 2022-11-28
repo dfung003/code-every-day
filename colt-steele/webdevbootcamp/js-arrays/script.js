@@ -28,3 +28,12 @@ const lottoNumbers = [5, 2, 28, 14, 7, 22]
 
 // Arrays are Indexed
 // Each element has a corresponding index (counting starts at 0)
+let colors = ['red', 'orange', 'yellow', 'green'];
+
+colors.length //4
+
+colors[0] //'red'
+colors[1] //'orange'
+colors[2] //'yellow'
+colors[3] //'green'
+colors[4] //'undefined'
