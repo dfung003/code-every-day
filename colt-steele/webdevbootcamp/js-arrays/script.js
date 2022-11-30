@@ -37,3 +37,9 @@ colors[1] //'orange'
 colors[2] //'yellow'
 colors[3] //'green'
 colors[4] //'undefined'
+
+let beatles = ['paul', 'john', 'george']
+
+beatles[3] = 'ringo';
+
+// Can modify elements in array and add to array
