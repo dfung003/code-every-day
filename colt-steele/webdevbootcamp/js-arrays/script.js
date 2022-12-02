@@ -28,18 +28,24 @@ const lottoNumbers = [5, 2, 28, 14, 7, 22]
 
 // Arrays are Indexed
 // Each element has a corresponding index (counting starts at 0)
-let colors = ['red', 'orange', 'yellow', 'green'];
+let colors2 = ['red', 'orange', 'yellow', 'green'];
 
 colors.length //4
 
-colors[0] //'red'
-colors[1] //'orange'
-colors[2] //'yellow'
-colors[3] //'green'
-colors[4] //'undefined'
+colors2[0] //'red'
+colors2[1] //'orange'
+colors2[2] //'yellow'
+colors2[3] //'green'
+colors2[4] //'undefined'
 
 let beatles = ['paul', 'john', 'george']
 
 beatles[3] = 'ringo';
 
 // Can modify elements in array and add to array
+
+const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix']; //DON'T TOUCH THIS LINE!
+
+// YOUR CODE BELOW HERE:
+leaderboard[1] = 'Luna';
+leaderboard[3] = 'Draco';
