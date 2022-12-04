@@ -49,3 +49,11 @@ const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix']; //DON'T TOUCH THI
 // YOUR CODE BELOW HERE:
 leaderboard[1] = 'Luna';
 leaderboard[3] = 'Draco';
+
+// Array Methods
+/*
+Push - add to end
+Pop - remove from end
+Shift - remove from end
+Unshift - add to start
+*/
