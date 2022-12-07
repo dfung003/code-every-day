@@ -69,3 +69,10 @@ slice - copies a portion on an array
 splice - removes/replaces elements
 sort - sorts an array
 */
+
+let movieLine = ['tom', 'nancy']
+
+movieLine[2] = 'pablo'
+
+movieLine.push('oliver')
+// ['tom', 'nancy', 'pablo', 'oliver']
