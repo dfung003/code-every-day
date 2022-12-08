@@ -76,3 +76,6 @@ movieLine[2] = 'pablo'
 
 movieLine.push('oliver')
 // ['tom', 'nancy', 'pablo', 'oliver']
+
+movieLine.shift()
+// ['nancy', 'pablo', 'oliver']
