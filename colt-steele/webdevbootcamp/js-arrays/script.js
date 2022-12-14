@@ -95,3 +95,6 @@ let dogs = ['rusty', 'wyatt']
 
 cats.concat(dogs)
 // ['blue', 'kitty', 'rusty', 'wyatt']
+
+// Includes Method
+// The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate
