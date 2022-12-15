@@ -98,3 +98,8 @@ cats.concat(dogs)
 
 // Includes Method
 // The includes() method determines whether an array includes a certain value among its entries, returning true or false as appropriate
+
+cats.includes('blue');
+// true
+cats.includes('Blue');
+// false
