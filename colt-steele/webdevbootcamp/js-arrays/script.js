@@ -103,3 +103,6 @@ cats.includes('blue');
 // true
 cats.includes('Blue');
 // false
+
+cats.indexOf('blue');
+// 0
