@@ -106,3 +106,8 @@ cats.includes('Blue');
 
 cats.indexOf('blue');
 // 0
+
+// Reverse Method
+/* Reverse method is destructive,
+it changes the original array
+*/
