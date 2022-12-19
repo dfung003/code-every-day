@@ -111,3 +111,6 @@ cats.indexOf('blue');
 /* Reverse method is destructive,
 it changes the original array
 */
+
+dogs.reverse();
+// ['wyatt', 'rusty']
