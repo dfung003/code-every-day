@@ -122,3 +122,7 @@ let colors3 = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 colors3.slice(3);
 // ['green', 'blue', 'indigo', 'violet']
+
+let warmColors = colors3.slice(0, 3)
+
+// ['red', 'orange', 'yellow']
