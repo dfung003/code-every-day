@@ -127,3 +127,6 @@ colors3.slice(3);
 let warmColors = colors3.slice(0, 3)
 
 // ['red', 'orange', 'yellow']
+
+// Splice Method
+// The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
