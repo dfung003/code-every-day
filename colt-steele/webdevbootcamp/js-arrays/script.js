@@ -138,3 +138,6 @@ console.log(months);
 // expected output: Array ['Jan', 'Feb', 'March', 'April', 'June']
 
 // let arrDeletedItems = array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
+
+// Sort Method
+// The sort() method sorts the elements of an array in place and returns the sorted array
