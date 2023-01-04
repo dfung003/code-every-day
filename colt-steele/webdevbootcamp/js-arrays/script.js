@@ -141,3 +141,4 @@ console.log(months);
 
 // Sort Method
 // The sort() method sorts the elements of an array in place and returns the sorted array
+// does not sort in numerical order
