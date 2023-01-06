@@ -142,3 +142,6 @@ console.log(months);
 // Sort Method
 // The sort() method sorts the elements of an array in place and returns the sorted array
 // does not sort in numerical order
+
+// Filter Method
+// creates a new array with all alements that pass the test implemented by the provided function
