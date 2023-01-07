@@ -145,3 +145,9 @@ console.log(months);
 
 // Filter Method
 // creates a new array with all alements that pass the test implemented by the provided function
+
+// Reference Types and Equality Testing
+[1] === [1]
+// false
+
+// comparing references in memory, not what is inside
