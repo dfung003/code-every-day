@@ -151,3 +151,9 @@ console.log(months);
 // false
 
 // comparing references in memory, not what is inside
+
+let refNums = [1, 2, 3]
+let refCopy = [1, 2, 3]
+
+// refNums === refCopy
+// true
