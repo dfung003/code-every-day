@@ -161,3 +161,13 @@ let refCopy = [1, 2, 3]
 // Arrays and Const
 // The values can change as long as the reference remains the same
 // const cares about the variable not being reassigned
+
+const PI = 3.14159;
+
+// PI += 1 => TypeError
+
+const numsArray = [1, 2, 3]
+
+nums.push(4)
+
+// [1, 2, 3, 4]
