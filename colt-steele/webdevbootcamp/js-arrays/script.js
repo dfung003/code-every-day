@@ -158,7 +158,7 @@ let refCopy = [1, 2, 3]
 // refNums === refCopy
 // true
 
-// Arrays and Const
+// Arrays & Const
 // The values can change as long as the reference remains the same
 // const cares about the variable not being reassigned
 
