@@ -171,3 +171,4 @@ const numsArray = [1, 2, 3]
 nums.push(4)
 
 // [1, 2, 3, 4] // 4 is added to end of array, cannot change PI variable
+// PI remains constant regardless if you try to change the value
